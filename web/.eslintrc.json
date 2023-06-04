@@ -1,7 +1,6 @@
 {
-  "extends": "@rocketseat/eslint-config/node",
+  "extends": ["next/core-web-vitals", "@rocketseat/eslint-config/react"],
   "rules": {
-    "camelcase": "off",
-    "no-useless-constructor": "off"
+    "camelcase": "off"
   }
 }
